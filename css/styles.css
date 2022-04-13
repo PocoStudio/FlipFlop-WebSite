@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header img {
+    width: 70px;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(161, 173, 180); */
+}
+
+section.top-page {
+    /* background: url('../FlipFLop IMAGE/flip flop fond.jpg'); */
+    background-color: rgb(27, 210, 223);
+    background-size: cover;
+    height: 500px;
+    padding: 20px;
+}
+
+/* Page  de bienvenue*/
+
+.landing-page {
+    padding: 10px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    width: 40%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px 50px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    /* background-color: red; */
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    /* color: brown; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    /* background-color: darkblue; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: rgb(31, 160, 160);
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* Actu du bot */
+
+.section-title {
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+/* .section-title::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(31, 160, 160);
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+} */
+
+.news {
+    margin: 50px;
+}
+
+.news-list {
+    /* background-color: brown; */
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 500px;
+    max-width: 600px;
+    height: 300px;
+    flex: 1;
+}
+
+.image1 {
+    background-image: url('../FlipFLop IMAGE/FilFlop\ Github\ Officiel.png');
+}
+
+.image2{
+    background-image: url('../FlipFLop IMAGE/hebergemement.png');
+}
+
+.image3{
+    background-image: url('../FlipFLop IMAGE/commades\ help.png');
+}
+
+.image4{
+    background-image: url('https://photos.gammvert.fr/v5/section/subsection_620/5081-toutes-nos-plantes-dinterieur.jpg');
+}
+
+.image-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+
+}
+
+.image-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.image-info {
+    color: rgb(31, 160, 160);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
