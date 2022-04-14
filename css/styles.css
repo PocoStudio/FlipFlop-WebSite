@@ -171,6 +171,47 @@ nav.nav li a {
     line-height: 10px;
 }
 
+/* Page de commande */
+
+.commande-text-1 {
+    display: flex;
+    /* color: brown; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+
+.tilte-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+    /* font-weight: 200; */
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 7000px;
+}
+
+.text-details {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 50px;
+    /* min-width: 200px; */
+    max-width: 500px;
+}
+
+.image11 {
+    background-image: url('../FlipFLop IMAGE/commades\ divers.png');
+}
+
+.image22{
+    background-image: url('../FlipFLop IMAGE/commande\ moderation.png');
+}
+
+.image33{
+    background-image: url('../FlipFLop IMAGE/Comande\ Money.png');
+}
+
 /* pied de page */
 
 footer {
