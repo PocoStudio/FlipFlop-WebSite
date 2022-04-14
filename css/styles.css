@@ -124,6 +124,8 @@ nav.nav li a {
     position: relative;
     background-size: cover;
     background-position: center;
+    text-decoration: none;
+    color: black;
 }
 
 .no-grid {
