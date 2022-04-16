@@ -60,6 +60,12 @@ section.top-page {
     padding: 100px 800px;
 }
 
+.Gif3 {
+    position: absolute;
+    height: 400px;
+    padding: 0px 800px;
+}
+
 /* menu de navigation */
 
 nav.nav {
