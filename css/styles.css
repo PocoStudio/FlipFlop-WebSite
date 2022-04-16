@@ -48,6 +48,18 @@ section.top-page {
     bottom: 20px 50px;
 }
 
+.Gif {
+    position: absolute;
+    height: 400px;
+    padding: 0px 800px;
+}
+
+.Gif2 {
+    position: absolute;
+    height: 100px;
+    padding: 100px 800px;
+}
+
 /* menu de navigation */
 
 nav.nav {
