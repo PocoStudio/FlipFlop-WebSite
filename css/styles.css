@@ -29,6 +29,35 @@ section.top-page {
 
 /* Page  de bienvenue*/
 
+.icon {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(8, 178, 190);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+    5px 5px 10px rgb(21, 154, 163),
+    -5px -5px 10px rgb(21, 154, 163);
+}
+.icon:focus {
+    animation: shadow .15s
+    ease-in-out;
+}
+@keyframes shadow {
+    0% {
+        box-shadow: 
+        inset 5px 5px 10px rgb(18, 18, 19),
+        inset 5px -5px 10px rgb(18, 18, 19);
+    }
+    100% {
+        box-shadow: none;
+    }
+}
+
 .landing-page {
     padding: 10px 50px;
 }
@@ -48,10 +77,20 @@ section.top-page {
     bottom: 20px 50px;
 }
 
-.Gif {
+.icon-postion {
     position: absolute;
     height: 400px;
-    padding: 0px 800px;
+    padding: 350px 1350px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 200px;
+    
+}
+
+.Gif {
+    position: absolute;
+    height: 350px;
+    padding: 0px 650px;
 }
 
 .Gif2 {
@@ -60,7 +99,7 @@ section.top-page {
     padding: 100px 800px;
 }
 
-.Gif4 {
+.Gif3 {
     position: absolute;
     height: 400px;
     padding: 0px 800px;
@@ -247,4 +286,5 @@ footer a.cgv {
     text-decoration: none;
     color: black;
 }
+
 
