@@ -7,11 +7,16 @@
 
 body {
     margin: 0 auto;
+    width: 100%;
 }
 
 header.header img {
     width: 70px;
+    padding : 0;
+    text-align: center; 
+    overflow: hidden; 
 }
+
 
 header.header {
     display: flex;
@@ -80,7 +85,8 @@ section.top-page {
 .icon-postion {
     position: absolute;
     height: 400px;
-    padding: 350px 1350px;
+    right: 50px;
+    top: 460px;
     justify-content: space-evenly;
     display: flex;
     width: 200px;
@@ -90,19 +96,23 @@ section.top-page {
 .Gif {
     position: absolute;
     height: 350px;
-    padding: 0px 650px;
+    right: 450px;
+    top: 100px;
 }
 
 .Gif2 {
     position: absolute;
     height: 100px;
-    padding: 100px 800px;
+    right: 200px;
+    top: 200px;
+    /* padding: 150px 800px 500px; */
 }
 
 .Gif3 {
     position: absolute;
     height: 400px;
-    padding: 0px 800px;
+    right: 450px;
+    top: 100px;
 }
 
 
@@ -256,7 +266,7 @@ nav.nav li a {
 .text-details {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px 50px;
-    /* min-width: 200px; */
+    min-width: 200px;
     max-width: 500px;
 }
 
@@ -286,5 +296,6 @@ footer a.cgv {
     text-decoration: none;
     color: black;
 }
+
 
 
